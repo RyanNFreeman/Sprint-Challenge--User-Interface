@@ -57,10 +57,12 @@ table {
 }
 
 .logo-2 {
+    width: 80%;
     margin: 30px;
 }
 
 .logo-3 {
+    width: 80%;
     margin: 30px;
 }
 
@@ -76,12 +78,9 @@ header {
 }
 
 header nav {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end; */
     padding: 20px;
 }
+
 
 header nav a {
     display: inline-block;
@@ -89,6 +88,10 @@ header nav a {
     font-size: 14px;
     color: black;
     text-decoration: none;
+  }
+
+header nav a:hover {
+    text-decoration: underline;
   }
 
 html, body {
@@ -222,4 +225,8 @@ footer nav a {
 
 #box-10 {
     background-color: dodgerblue;
+}
+
+.about-section {
+    border-bottom: 1 px dashed black;
 }
