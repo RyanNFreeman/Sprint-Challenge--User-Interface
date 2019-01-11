@@ -170,6 +170,7 @@ p {
 }
 
 footer {
+    margin-top: 30px;
     width: 100%;
     background: black;
 }
@@ -227,6 +228,42 @@ footer nav a {
     background-color: dodgerblue;
 }
 
+
 .about-section {
-    border-bottom: 1 px dashed black;
+    margin: 60px;
+}
+
+.container-about-page {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.about-box-1 {
+    width: 40%;
+    height: 100px;
+    color: black;
+    border-color: black;
+}
+.about-box-2 {
+    width: 40%;
+    height: 100px;
+    color: black;
+    border-color: black;
+}
+.about-box-3 {
+    width: 40%;
+    height: 100px;
+    color: black;
+    border-color: black;
+}
+.about-box-4 {
+    width: 40%;
+    height: 100px;
+    color: black;
+    border-color: black;
+}
+
+.work-together {
+    padding: 60px;
 }
