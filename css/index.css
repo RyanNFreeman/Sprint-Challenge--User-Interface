@@ -235,15 +235,18 @@ footer nav a {
 
 .container-about-page {
     width: 100%;
+    padding: 40px 0px;
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
 }
 .about-box-1 {
     width: 40%;
-    height: 120px;
+    /* height: 120px; */
     color: black;
-    border-color: black;
+    border-color: 1 px solid red;
 }
 .about-box-2 {
     width: 40%;
@@ -265,11 +268,19 @@ footer nav a {
 }
 
 .work-together {
-    padding: 60px;
+    padding: 50px 50px 10px 50px;
 }
 
 button {
-    border radius: 4 px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin: 10px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
 }
 
 .images {
