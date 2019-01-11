@@ -57,12 +57,12 @@ table {
 }
 
 .logo-2 {
-    width: 80%;
+    width: 85%;
     margin: 30px;
 }
 
 .logo-3 {
-    width: 80%;
+    width: 85%;
     margin: 30px;
 }
 
@@ -78,7 +78,7 @@ header {
 }
 
 header nav {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -230,7 +230,7 @@ footer nav a {
 
 
 .about-section {
-    margin: 60px;
+    margin: 4% 8%;
 }
 
 .container-about-page {
@@ -281,6 +281,20 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+}
+
+button:hover {
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px 20px;
+    margin: 10px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    }
 }
 
 .images {
