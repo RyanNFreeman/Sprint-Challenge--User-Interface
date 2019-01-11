@@ -241,29 +241,38 @@ footer nav a {
 }
 .about-box-1 {
     width: 40%;
-    height: 100px;
+    height: 120px;
     color: black;
     border-color: black;
 }
 .about-box-2 {
     width: 40%;
-    height: 100px;
+    height: 120px;
     color: black;
     border-color: black;
 }
 .about-box-3 {
     width: 40%;
-    height: 100px;
+    height: 120px;
     color: black;
     border-color: black;
 }
 .about-box-4 {
     width: 40%;
-    height: 100px;
+    height: 120px;
     color: black;
     border-color: black;
 }
 
 .work-together {
     padding: 60px;
+}
+
+button {
+    border radius: 4 px;
+}
+
+.images {
+    width: 40px;
+    height: 30px;
 }
