@@ -57,12 +57,12 @@ table {
 }
 
 .logo-2 {
-    width: 85%;
+    width: 750px;
     margin: 30px;
 }
 
 .logo-3 {
-    width: 85%;
+    width: 750px;
     margin: 30px;
 }
 
@@ -233,14 +233,9 @@ footer nav a {
     margin: 4% 8%;
 }
 
-.container-about-page {
-    width: 100%;
-    padding: 40px 0px;
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    border-top: 1px dashed black;
-    border-bottom: 1px dashed black;
+.container-2 {
+    width: 800px;
+    margin: 0 auto;
 }
 .about-box-1 {
     width: 40%;
@@ -267,8 +262,10 @@ footer nav a {
     border-color: black;
 }
 
-.work-together {
-    padding: 50px 50px 10px 50px;
+.bottom-content2 {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
 }
 
 button {
@@ -280,7 +277,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 button:hover {
@@ -298,6 +295,39 @@ button:hover {
 }
 
 .images {
-    width: 40px;
-    height: 30px;
+    width: 100%;
+}
+
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.text-container2 {
+    width: 90%;
+    padding-bottom: 20px;
+}
+.middle-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content2 .boxes {
+    width: 45%;
+    margin: 20px 2.5%;
+    color: black;
+}
+
+.middle-content2 h2, p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.about-container {
+    width: 90%;
 }
