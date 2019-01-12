@@ -284,12 +284,12 @@ button:hover {
     color: white;
     background-color: black;
     border-radius: 8px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin: 10px 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 14px;
     }
 }
 
@@ -313,7 +313,6 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content2 .boxes {
